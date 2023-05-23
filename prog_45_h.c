@@ -7,9 +7,8 @@ int main()
     
     printf("\nEnter the angle in degree : ");
     scanf("%f", &ang);
-    
+ 
     ang = ang*((22.0/7.0)/180.0);
-    
     sum = cos(ang) + sin(ang);
     
     if(sum == 1)

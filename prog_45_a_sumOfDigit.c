@@ -40,7 +40,6 @@ int Reverce(int a){
 		a=a/10;
 	        printf("%d",digit);
 
-
 	}
 	printf("\nzero after this");
 	return 0;

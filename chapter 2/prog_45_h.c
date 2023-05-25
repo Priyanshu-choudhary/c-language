@@ -14,7 +14,7 @@ int main()
     if(sum == 1)
         printf("\nTheir sum is one.");
     else
-        printf("\nTheir sum is not one");
+        printf("\nTheir sum is not one");t
     
     printf("%f", ang);
     return 0;

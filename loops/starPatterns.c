@@ -5,7 +5,7 @@ void peramid(void);
 
 int main(){
 rightstar();
-//leftstar();
+leftstar();
 peramid();
 
 return 0;
@@ -64,7 +64,7 @@ void leftstar(void){
 int n=0,i=0,k=0,j=0;
  printf("enter star size:");
  scanf("%d",&n);
-for(k;k<n;k++){
+for(k;k<=n;k++){
 	
 	for(i;(i<(n-k));i++){
 	 printf(" ");	

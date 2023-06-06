@@ -1,0 +1,52 @@
+git config -- global user.name”firstname lastname”
+git config -- global user.email” abc123@abc.com”
+git config -- global color.ui true (enables code highlights)
+git config --list     //give information about username
+git init
+git status
+git status-s
+git add<filename>
+git add -A
+git rm -r <filename>
+git commit -m “body_of_message”
+git remote add origin<link>    //eg-link == https://github.com/YourUsername/appname.git
+git push origin master
+
+///Branching and Merging///
+
+
+git branch
+git branch -D [name -of-the-branch]                                                 //To delete a branch
+git push origin –delete [branchName]                                                //To delete a remote branch
+git checkout [name-of-the-new-branch]                                               //To switch to a branch
+git checkout -b branchNew2                                                          //To create a new branch and switch to it
+git checkout — [file-name.txt]                                                      //To discard the changes made to a file
+git push origin branchNew2
+git merge [branch name]                                                             //To merge a branch into an active branch
+git clone [URL]
+git stash	                                                                    //To stash the changes in a dirty working directory
+git stash clear	                                                                    //To remove all the stashed entries
+
+
+/////Sharing and Updating Projects/////
+
+
+git push origin [branch name]	                                                    //To push a branch to a remote repository
+git push -u origin [branch name]                                                    //To push the changes made to a remote repository (-u remembers the branch for the next use)
+git push origin –delete [branch name]                                               //To delete a remote branch
+git pull	                                                                        //To update a local repository to the newest commit
+git pull origin [branch name]	                                                    //To pull the changes from a remote repository
+git remote add origin git@github.com/[username]/[repository-name].git	            //To add a remote repository
+git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	    //To set a repository’s origin branch to SSH
+git remote set-url origin ssh://git@github.com:Priyanshu-choudhary/test2.git
+git remote -v
+git remotr rm origin
+///////Inspection and Comparison///////
+
+
+git log  // git log -3
+git log -graph
+View changes	                                                                     //To view changes (in detail)
+git diff [source branch] [target branch}	                                     //To preview changes before merging
+
+
